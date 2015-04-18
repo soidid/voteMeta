@@ -1,0 +1,37 @@
+.Proposer {
+  display: inline-block;
+}
+.Proposer-avatar {
+  display: inline-block;
+}
+.Proposer-avatarImg {
+	width: 30px;
+	height: 33px;
+  border-bottom-width: 3px;
+  border-style: solid;
+
+}
+.Proposer-avatarImg.is-KMT {
+  border-color: #3288bd;
+}
+.Proposer-avatarImg.is-DPP {
+  border-color: #7fbc41;
+}
+.Proposer-avatarImg.is-PFP {
+  border-color: orange;
+}
+.Proposer-avatarImg.is-TSU {
+  border-color: #b35806;
+}
+.Proposer-avatarImg.is-NP {
+  border-color: gray;
+}
+.Proposer-avatarImg.is-NPU {
+  border-color: rgba(194,15,81,0.9);
+}
+.Proposer-avatarName {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+  margin: 0 8px;
+}

@@ -1,0 +1,121 @@
+.Records {
+	text-align: center;
+	border-top: 1px solid rgb(220,220,220);
+	
+	margin: 0 auto;
+}
+@media screen and (min-width: 600px){
+	.Records {
+		max-width: 600px;
+	}
+}
+.Records-title {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 14px 0 10px 0;
+}
+.Records-year {
+	text-align: left;
+	border-left: 1px solid rgb(153,155,154);
+    padding-top: 20px;
+}
+.Records-yearHeader {
+	position: relative;
+
+}
+.Records-yearUnit {
+	position: absolute;
+	top: 8px;
+	left: -4px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #880013;
+
+}
+.Records-yearTitle {
+	text-align: left;
+	font-weight: 800;
+	padding-left: 10px;
+}
+.Records-yearSum {
+	padding: 5px 0 5px 10px;
+	width: 100%;
+	background: rgb(220,220,220);
+	cursor: pointer;
+}
+.Records-yearToggle {
+	float: right;
+	padding: 0 20px;
+}
+.Records-yearEntries {
+	padding-top: 4px;
+}
+
+
+
+
+
+
+
+.Records-entry, .Records-entry:visited {
+	display: inline-block;
+	border: 1px solid rgb(220,220,220);
+	width: 100%;
+	vertical-align: top;
+	margin: 4px;
+	//box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+	cursor: pointer;
+	text-align: left;
+	background: white;
+
+	text-decoration: none;
+	color: rgb(53,55,54);
+
+
+}
+.Records-entry:hover {
+    box-shadow: 2px 2px 0 0 rgba(0,0,0,0.1);
+    //border: 1px solid rgb(53,55,54);
+}
+.Records-entryTitle {
+    padding: 4px 10px 4px 10px;
+    font-weight: 800;
+    font-size: 18px;
+    
+}
+.Records-flexItem {
+	display: flex;
+}
+.Records-flexLeft {
+	flex: 0 0 90px;
+	padding: 4px 10px;
+	color: gray;
+}
+.Records-flexMain {
+	flex: 1;
+	padding: 4px;
+	color: rgb(53,55,54);
+}
+.Records-opinion {
+	//color: white;
+	
+	/*min-height: 40px;
+	line-height: 40px;*/
+	/*border-radius: 4px;*/
+	font-weight: 800;
+}/*
+.Records-opinion.is-for {
+	color: #3EA869;
+}
+.Records-opinion.is-against {
+	color: #C62F20;
+}
+.Records-opinion.is-giveup {
+	background: orange;
+}
+.Records-opinion.is-notshow {
+	background: gray;
+}*/

@@ -1,0 +1,37 @@
+.App {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+@media screen and (min-width: 600px){
+	.App{
+		max-width: 600px;
+	}
+}
+/* ＯＯＯ 的表決資料 */
+.App-header {
+	text-align: center;
+	margin: 20px 0;
+}
+.App-title {
+	font-size: 24px;
+	font-weight: 800;
+}
+.App-tabs {
+	text-align: left;
+	margin: 0 auto;
+	width: 100%;
+	border-bottom: 1px solid rgb(220,220,220);
+}
+.App-tab {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 4px 6px 4px;
+    cursor: pointer;
+}
+.App-tab.is-focus {
+	border-bottom: 4px solid rgb(53,55,54);
+}
+
+
