@@ -15,19 +15,20 @@ var Input =
        
         var examples = [
         {
-          title:'支持核四',
+          title:'續建核四',
           tag:'核四',
           opinion:'for'
         },
         { 
-          title:'反對核四',
+          title:'停建核四',
           tag:'核四',
           opinion:'against'
         }];
         var exampleButtons = examples.map((item,key)=>{
             var boundClick = handleSetInput.bind(null, item);
             return <div className="Input-keyword"
-                        onClick={boundClick}>{item.title}</div>;
+                        onClick={boundClick}
+                        key={key}>{item.title}</div>;
         });
 
         

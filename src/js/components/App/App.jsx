@@ -143,7 +143,8 @@ var App = React.createClass({
               "is-focus" : item === currentTab
             })
             return <div className={tabClasses}
-                        onClick={boundClick}>{item}</div>;
+                        onClick={boundClick}
+                        key={key}>{item}</div>;
         });
     
     return (

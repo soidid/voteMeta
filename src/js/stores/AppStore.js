@@ -202,7 +202,7 @@ function parseData (argument) {
         }
        
 
-        console.log(_data);
+        //console.log(_data);
         AppStore.emitChange();
          
     });

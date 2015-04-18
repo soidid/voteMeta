@@ -38,11 +38,21 @@
 	font-weight: 800;
 	padding-left: 10px;
 }
+
+/* O 次表決結果 */
 .Records-yearSum {
-	padding: 5px 0 5px 10px;
+	padding: 10px;
 	width: 100%;
 	background: rgb(220,220,220);
 	cursor: pointer;
+}
+.Records-yearSum:hover {
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+/* x 次支持 */
+.Records-voteNumbers {
+    font-size: 18px;
+    font-weight: 800;
 }
 .Records-yearToggle {
 	float: right;
@@ -106,7 +116,7 @@
 	line-height: 40px;*/
 	/*border-radius: 4px;*/
 	font-weight: 800;
-}/*
+}
 .Records-opinion.is-for {
 	color: #3EA869;
 }
@@ -118,4 +128,4 @@
 }
 .Records-opinion.is-notshow {
 	background: gray;
-}*/
+}
